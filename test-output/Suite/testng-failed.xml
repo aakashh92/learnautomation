@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test name="Firefox(failed)">
+    <parameter name="browsers" value="firefox"/>
+    <classes>
+      <class name="seleniumPractises.CrossBrowsers">
+        <methods>
+          <include name="start"/>
+        </methods>
+      </class> <!-- seleniumPractises.CrossBrowsers -->
+    </classes>
+  </test> <!-- Firefox(failed) -->
+  <test name="Chrome(failed)">
+    <parameter name="browsers" value="chrome"/>
+    <classes>
+      <class name="seleniumPractises.CrossBrowsers">
+        <methods>
+          <include name="start"/>
+        </methods>
+      </class> <!-- seleniumPractises.CrossBrowsers -->
+    </classes>
+  </test> <!-- Chrome(failed) -->
+</suite> <!-- Failed suite [Suite] -->

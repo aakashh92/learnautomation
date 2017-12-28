@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="ListenersRun">
+
+<listeners>
+<listener class-name="seleniumconcepts.programs.customListenerstestng.CustomListeners"></listener>
+
+</listeners>
+  <test name="LoginTest">
+    <classes>
+      <class name="seleniumconcepts.programs.testcaseslistener.TestLogin"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

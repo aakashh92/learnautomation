@@ -1,0 +1,4 @@
+FirefoxDriver=C:\Users\aakas\Downloads\selenium\selenium latest 1\firefox\geckodriver.exe
+
+URL=http://www.moneycontrol.com/mcplus/portfolio/logout.php?ref=http://www.moneycontrol.com/mcplus/portfolio/loginportfolio.php
+
